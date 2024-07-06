@@ -25,13 +25,15 @@ h2 {
     text-align: center;
 }
 
-h3 {
-    font-size: 4rem;
-    text-align: center;
+.weather {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-h3::after {
-    content: "⛅";
+.weather img {
+    width: 150px;
+    margin: 0 auto;
 }
 
 picture {

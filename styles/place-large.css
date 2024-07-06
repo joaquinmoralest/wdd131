@@ -34,6 +34,10 @@
         justify-content: space-between;
     }
 
+    .weather img {
+        display: none;
+    }
+
     h3 {
         display: none;
     }
