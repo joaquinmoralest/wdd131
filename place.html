@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="scripts/place.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Chile</h1>
+        <div class="hero">
+            <picture>
+                <source srcset="images/patagonia-small.webp" media="(max-width: 649px)">
+                <source srcset="images/patagonia.webp" media="(min-width: 650px)">
+                <img src="images/patagonia-small.webp" alt="Patagonia photo">
+            </picture>
+        </div>
+    </header>  
+    <main>
+        <section class="data">
+            <h2>Data</h2>
+            <div class="info">
+                <div class="labels">
+                    <p>Area:</p>
+                    <p>Polulation:</p>
+                    <p>Capital:</p>
+                    <p>Languages:</p>
+                    <p>Currency:</p>
+                    <p>Time Zone:</p>
+                    <p>Calling Code:</p>
+                    <p>Internet TLD:</p>
+                </div>
+                <div class="values">
+                    <p>756.945 km2</p>
+                    <p>19.493.184</p>
+                    <p>Santiago</p>
+                    <p>Spanish</p>
+                    <p>Peso chileno</p>
+                    <p>GMT-4</p>
+                    <p>+56</p>
+                    <p>.cl</p>
+                </div>
+            </div>
+        </section>
+        <div class="divider"></div>
+        <section class="weather">
+            <h2>Weather</h2>
+            <h3></h3>
+            <div class="info">
+                <div class="labels">
+                    <p>Temperature:</p>
+                    <p>Conditions:</p>
+                    <p>Wind:</p>
+                    <p>Wind Chill:</p>
+                </div>
+                <div class="values">
+                    <p>22 ºC</p>
+                    <p>Cloudy</p>
+                    <p>3 km/h</p>
+                    <p id="windchill"></p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>©2024<span id="currentYear"></span> ⚡️ Joaquín Morales ⚡️ Chile</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>

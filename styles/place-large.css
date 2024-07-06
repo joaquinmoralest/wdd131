@@ -1,0 +1,44 @@
+@media screen and (min-width: 650px) {
+
+    main section {
+        width: 280px;
+    }
+
+    main section:first-child {
+        position: absolute;
+        top: 10rem;
+        left: 2rem;
+    }
+
+    main section:last-child {
+        position: absolute;
+        bottom: 14rem;
+        right: 2rem;
+    }
+
+    h2 {
+        position: relative;
+        left: -1.8rem;
+        background-color: var(--primary-color);
+        padding: .8rem;
+        text-align: left;
+        color: #fff;
+    }
+
+    .weather h2::after {
+        content: "⛅";
+    }
+
+    .weather h2 {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    h3 {
+        display: none;
+    }
+
+    .divider {
+        display: none;
+    }
+}
