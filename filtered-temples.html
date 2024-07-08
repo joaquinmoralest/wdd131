@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <link rel="stylesheet" href="styles/filtered-temples.css" />
+        <link rel="stylesheet" href="styles/filtered-temples-large.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap"
+            rel="stylesheet"
+        />
+        <script src="scripts/filtered-temples.js" defer></script>
+        <script src="scripts/getdates.js" defer></script>
+        <title>Temples Album</title>
+    </head>
+    <body>
+        <header>
+            <h1>Temple Album</h1>
+            <img
+                id="burgerMenu"
+                class="burgerMenu"
+                src="images/burger-menu.svg"
+                alt=""
+            />
+            <span id="closeButton" class="closeButton">x</span>
+            <nav id="menu">
+                <a href="#" id="homeBtn">Home</a>
+                <a href="#" id="oldBtn">Old</a>
+                <a href="#" id="newBtn">New</a>
+                <a href="#" id="largeBtn">Large</a>
+                <a href="#" id="smallBtn">Small</a>
+            </nav>
+        </header>
+        <main>
+            <h2 id="selectedMenu"></h2>
+            <div class="container"></div>
+        </main>
+        <footer>
+            <p>©<span id="currentYear"></span> ⚡️ Joaquín Morales ⚡️ Chile</p>
+            <p id="lastModified"></p>
+        </footer>
+    </body>
+</html>
